@@ -1,7 +1,5 @@
 package fr.univamu.iut.traitement.produit;
 
-import fr.univamu.iut.traitement.produit.Viande;
-
 /**
  * 
  */
@@ -15,7 +13,7 @@ public class ViandeDeBoeuf extends Viande {
 
     @Override
     public void valider() {
-        
+
     }
 
 }
