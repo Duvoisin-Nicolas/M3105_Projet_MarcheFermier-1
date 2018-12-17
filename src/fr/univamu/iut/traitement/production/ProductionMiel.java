@@ -1,9 +1,11 @@
 package fr.univamu.iut.traitement.production;
 
+import fr.univamu.iut.traitement.produit.ProduitFermier;
+
 /**
  * 
  */
-public class ProductionMiel extends UnitéDeProduction {
+public class ProductionMiel implements UnitéDeProduction {
 
     /**
      * Default constructor
@@ -11,4 +13,8 @@ public class ProductionMiel extends UnitéDeProduction {
     public ProductionMiel() {
     }
 
+    @Override
+    public ProduitFermier fabriquer() {
+        return null;
+    }
 }

@@ -3,22 +3,13 @@ package fr.univamu.iut.traitement.production;
 import fr.univamu.iut.traitement.produit.ProduitFermier;
 
 /**
- * 
+ * Cette interface correspond à la Fabrique que vont implémenter toutes les unités de production concrètes
  */
-public abstract class UnitéDeProduction {
+public interface UnitéDeProduction {
 
     /**
-     * Default constructor
+     * @return ProduitFermier (abstrait)
      */
-    public UnitéDeProduction() {
-    }
-
-    /**
-     * @return
-     */
-    public ProduitFermier fabriquer() {
-        // TODO implement here
-        return null;
-    }
+    public ProduitFermier fabriquer();
 
 }

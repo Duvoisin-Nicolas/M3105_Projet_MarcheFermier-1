@@ -1,9 +1,11 @@
 package fr.univamu.iut.traitement.production;
 
+import fr.univamu.iut.traitement.produit.ProduitFermier;
+
 /**
  * 
  */
-public class ProductionViandeDeBoeuf extends UnitéDeProduction {
+public class ProductionViandeDeBoeuf implements UnitéDeProduction {
 
     /**
      * Default constructor
@@ -11,4 +13,8 @@ public class ProductionViandeDeBoeuf extends UnitéDeProduction {
     public ProductionViandeDeBoeuf() {
     }
 
+    @Override
+    public ProduitFermier fabriquer() {
+        return null;
+    }
 }

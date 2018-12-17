@@ -1,5 +1,7 @@
 package fr.univamu.iut.traitement.produit;
 
+import java.time.LocalDate;
+
 /**
  * 
  */
