@@ -1,5 +1,7 @@
 package fr.univamu.iut.traitement.produit;
 
+import fr.univamu.iut.traitement.produit.label.ILabel;
+
 /**
  * 
  */
@@ -12,8 +14,8 @@ public class Pomme extends Fruit {
     }
 
     @Override
-    public void valider() {
-
+    public void valider(ILabel label) {
+        label.valider(this);
     }
 
 }
