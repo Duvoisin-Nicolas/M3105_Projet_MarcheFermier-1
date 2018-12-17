@@ -1,4 +1,4 @@
-package fr.univamu.iut.traitement.acteur.Producteur;
+package fr.univamu.iut.traitement.acteur.producteur;
 
 /**
  * 

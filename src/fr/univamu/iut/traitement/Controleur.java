@@ -1,5 +1,4 @@
-
-import java.util.*;
+package fr.univamu.iut.traitement;
 
 /**
  * 

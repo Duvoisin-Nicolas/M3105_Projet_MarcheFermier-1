@@ -1,4 +1,4 @@
-package fr.univamu.iut.traitement.Produit;
+package fr.univamu.iut.traitement.produit;
 
 /**
  * 

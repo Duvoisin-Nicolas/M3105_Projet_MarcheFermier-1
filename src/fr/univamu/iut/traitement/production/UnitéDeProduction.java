@@ -1,6 +1,6 @@
-package fr.univamu.iut.traitement.Production;
+package fr.univamu.iut.traitement.production;
 
-import fr.univamu.iut.traitement.Produit.ProduitFermier;
+import fr.univamu.iut.traitement.produit.ProduitFermier;
 
 /**
  * 
