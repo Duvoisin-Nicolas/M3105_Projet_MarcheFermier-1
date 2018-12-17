@@ -33,6 +33,18 @@ public abstract class ProduitFermier {
     /**
      *
      */
-    public abstract void valider(ILabel label);
+    public abstract void labeliser(ILabel label);
+
+    /**
+     *
+     */
+    public void valider(){
+        if(this.datePeremption.isAfter(LocalDate.now())){
+            this.isVendable = true;
+        }
+        else{
+            this.isVendable = false;
+        }
+    }
 
 }

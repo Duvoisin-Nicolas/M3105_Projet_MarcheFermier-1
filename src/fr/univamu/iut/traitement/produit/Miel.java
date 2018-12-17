@@ -14,7 +14,7 @@ public class Miel extends ProduitAbeille {
     }
 
     @Override
-    public void valider(ILabel label) {
+    public void labeliser(ILabel label) {
         label.valider(this);
     }
 
