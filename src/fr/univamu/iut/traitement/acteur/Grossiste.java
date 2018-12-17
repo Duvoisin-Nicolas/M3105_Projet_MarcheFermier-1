@@ -3,12 +3,12 @@ package fr.univamu.iut.traitement.acteur;
 /**
  * 
  */
-public class Grossite extends Participant {
+public class Grossiste extends Participant {
 
     /**
      * Default constructor
      */
-    public Grossite() {
+    public Grossiste() {
     }
 
 }
