@@ -1,7 +1,9 @@
 package fr.univamu.iut.traitement.produit;
 
+import java.time.LocalDate;
+
 /**
- * 
+ *
  */
 public abstract class ProduitFermier {
 
@@ -12,29 +14,23 @@ public abstract class ProduitFermier {
     }
 
     /**
-     * 
+     *
      */
-    private LocalDate datePeremption;
+    protected LocalDate datePeremption;
 
     /**
-     * 
+     *
      */
-    private int quantite;
+    protected int quantite;
 
     /**
-     * 
+     *
      */
-    private boolean isVendable;
-
-
-
-
+    protected boolean isVendable;
 
     /**
-     * 
+     *
      */
-    private void valider() {
-        // TODO implement here
-    }
+    public abstract void valider();
 
 }

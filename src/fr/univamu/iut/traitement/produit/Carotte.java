@@ -11,4 +11,9 @@ public class Carotte extends Legume {
     public Carotte() {
     }
 
+    @Override
+    public void valider() {
+
+    }
+
 }

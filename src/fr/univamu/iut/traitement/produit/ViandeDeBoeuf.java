@@ -1,19 +1,21 @@
 package fr.univamu.iut.traitement.produit;
 
+import fr.univamu.iut.traitement.produit.Viande;
+
 /**
  * 
  */
-public class Miel extends ProduitAbeille {
+public class ViandeDeBoeuf extends Viande {
 
     /**
      * Default constructor
      */
-    public Miel() {
+    public ViandeDeBoeuf() {
     }
 
     @Override
     public void valider() {
-
+        
     }
 
 }

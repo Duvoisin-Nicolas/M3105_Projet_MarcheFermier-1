@@ -11,4 +11,9 @@ public class Oeuf extends ProduitElevage {
     public Oeuf() {
     }
 
+    @Override
+    public void valider() {
+
+    }
+
 }

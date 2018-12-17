@@ -11,4 +11,9 @@ public class Fromage extends ProduitLaitier {
     public Fromage() {
     }
 
+    @Override
+    public void valider() {
+
+    }
+
 }

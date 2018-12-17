@@ -11,4 +11,9 @@ public class Pomme extends Fruit {
     public Pomme() {
     }
 
+    @Override
+    public void valider() {
+
+    }
+
 }

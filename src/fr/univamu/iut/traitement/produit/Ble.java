@@ -11,4 +11,9 @@ public class Ble extends Cereale {
     public Ble() {
     }
 
+    @Override
+    public void valider() {
+
+    }
+
 }
