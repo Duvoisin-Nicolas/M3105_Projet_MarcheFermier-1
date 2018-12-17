@@ -38,7 +38,7 @@ public abstract class Participant {
      * @param offre : Offre dans laquelle on veut postuler
      */
     public void creerOffreAchat(Offre offre) {
-        // TODO implement here
+        offre.addAcheteur(this);
     }
 
 
