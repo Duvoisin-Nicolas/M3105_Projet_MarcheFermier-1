@@ -1,7 +1,11 @@
 package fr.univamu.iut.traitement.produit;
 
+import fr.univamu.iut.traitement.produit.label.ILabel;
+
+import java.time.LocalDate;
+
 /**
- * 
+ *
  */
 public abstract class ProduitFermier {
 
@@ -12,29 +16,35 @@ public abstract class ProduitFermier {
     }
 
     /**
-     * 
+     *
      */
-    private LocalDate datePeremption;
+    protected LocalDate datePeremption;
 
     /**
-     * 
+     *
      */
-    private int quantite;
+    protected int quantite;
 
     /**
-     * 
+     *
      */
-    private boolean isVendable;
-
-
-
-
+    protected boolean isVendable;
 
     /**
-     * 
+     *
      */
-    private void valider() {
-        // TODO implement here
+    public abstract void labeliser(ILabel label);
+
+    /**
+     *
+     */
+    public void valider(){
+        if(this.datePeremption.isAfter(LocalDate.now())){
+            this.isVendable = true;
+        }
+        else{
+            this.isVendable = false;
+        }
     }
 
 }

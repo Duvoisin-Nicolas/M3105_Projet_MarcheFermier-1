@@ -5,12 +5,12 @@ import fr.univamu.iut.traitement.produit.label.ILabel;
 /**
  * 
  */
-public class Pomme extends Fruit {
+public class ViandeDeBoeuf extends Viande {
 
     /**
      * Default constructor
      */
-    public Pomme() {
+    public ViandeDeBoeuf() {
     }
 
     @Override
