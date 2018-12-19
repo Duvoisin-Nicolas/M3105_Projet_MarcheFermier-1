@@ -7,7 +7,6 @@ import fr.univamu.iut.traitement.acteur.Participant;
  */
 public abstract class Producteur extends Participant {
 
-    private String id;
     /**
      * Default constructor
      */
@@ -18,11 +17,5 @@ public abstract class Producteur extends Participant {
      */
     public abstract void produire();
 
-    public String getId() {
-        return id;
-    }
 
-    public void setId(String id) {
-        this.id = id;
-    }
 }
