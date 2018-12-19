@@ -21,7 +21,7 @@ public class Controleur {
     public void choisirAcheteur(Offre offre, Participant acheteur){
         if(offre.checkAcheteur(acheteur)){
 
-            /*
+
             if(acheteur.getSolde() >= offre.getPrix()){
                 offre.getVendeur().vente(offre.getPrix());
                 acheteur.achat(offre.getPrix());
@@ -30,7 +30,7 @@ public class Controleur {
             else{
                 System.out.println("Solde insuffisant de l'acheteur");
             }
-            */
+
         }
     }
 

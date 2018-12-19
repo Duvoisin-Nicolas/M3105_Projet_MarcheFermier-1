@@ -84,15 +84,14 @@ public class Offre {
         //Annonce plus disponible et Acheteur définie
         this.setEstDisponible(false);
         Acheteur = acheteur;
-
-        /*
+        
         //Changement de propriétaire du Produit
-        this.ProduitEnVente.setProprietaire(acheteur);
+        //this.ProduitEnVente.setProprietaire(acheteur);
 
         //Déplacement du Produit
         acheteur.ajouterProduit(ProduitEnVente);
         this.getVendeur().retirerProduit(ProduitEnVente);
-        */
+
     }
 
     /**
