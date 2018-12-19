@@ -19,6 +19,6 @@ public class CotisationProducteurBio implements ICotisation {
 
     @Override
     public double calculerCotisation() {
-        return 0;
+        return producteur.getCotisation () * 0.5;
     }
 }
