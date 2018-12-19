@@ -12,6 +12,11 @@ import java.util.List;
 public abstract class Participant {
 
     /**
+     * Id du participant
+     */
+    private String id;
+
+    /**
      * Solde disponible de l'acteur
      */
     private double solde;
@@ -70,5 +75,12 @@ public abstract class Participant {
 
     public void setInventaire(List<ProduitFermier> inventaire) {
         this.inventaire = inventaire;
+    }
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
