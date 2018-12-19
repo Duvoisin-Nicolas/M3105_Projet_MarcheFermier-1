@@ -41,5 +41,34 @@ public abstract class Participant {
         offre.addAcheteur(this);
     }
 
+    public void ajouterProduit (ProduitFermier produitFermier) {
+        inventaire.add(produitFermier);
+    }
 
+    public void retirerProduit (ProduitFermier produitFermier) {
+        inventaire.remove(produitFermier);
+    }
+    public double getSolde() {
+        return solde;
+    }
+
+    public void setSolde(double solde) {
+        this.solde = solde;
+    }
+
+    public double getGain() {
+        return gain;
+    }
+
+    public void setGain(double gain) {
+        this.gain = gain;
+    }
+
+    public List<ProduitFermier> getInventaire() {
+        return inventaire;
+    }
+
+    public void setInventaire(List<ProduitFermier> inventaire) {
+        this.inventaire = inventaire;
+    }
 }
