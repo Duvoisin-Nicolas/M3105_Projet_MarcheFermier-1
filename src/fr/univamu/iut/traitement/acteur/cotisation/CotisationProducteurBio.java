@@ -1,14 +1,24 @@
 package fr.univamu.iut.traitement.acteur.cotisation;
 
+import fr.univamu.iut.traitement.acteur.producteur.Producteur;
+
 /**
  * 
  */
-public class CotisationProducteurBio extends ICotisation {
+public class CotisationProducteurBio implements ICotisation {
+
+    private Producteur producteur;
 
     /**
-     * Default constructor
+     * @param producteur récupére les caractéristiques du producteur pour un calcul juste de la cotisation
      */
-    public CotisationProducteurBio() {
+    public CotisationProducteurBio(Producteur producteur) {
+        this.producteur = producteur;
     }
 
+
+    @Override
+    public double calculerCotisation() {
+        return producteur.getGain () * 0.05;
+    }
 }

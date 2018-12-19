@@ -3,21 +3,12 @@ package fr.univamu.iut.traitement.acteur.cotisation;
 /**
  * 
  */
-public class ICotisation {
+public interface ICotisation {
 
     /**
-     * Default constructor
+     *fonction qui retourne le résultat de la cotisation pour chaque type de producteur
+     * @return double
      */
-    public ICotisation() {
-    }
-
-
-    /**
-     * @return
-     */
-    public double calculerCotisation() {
-        // TODO implement here
-        return 0.0d;
-    }
+    double calculerCotisation();
 
 }

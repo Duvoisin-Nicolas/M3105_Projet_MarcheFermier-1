@@ -1,15 +1,11 @@
 package fr.univamu.iut.traitement.produit.label;
 
+import fr.univamu.iut.traitement.produit.ProduitFermier;
+
 /**
  * 
  */
-public class ILabel {
+public interface ILabel {
 
-    /**
-     * Default constructor
-     */
-    public ILabel() {
-    }
-
-
+    public void valider(ProduitFermier produit);
 }
