@@ -1,5 +1,7 @@
 package fr.univamu.iut.traitement.produit;
 
+import java.time.LocalDate;
+
 /**
  * 
  */
@@ -25,10 +27,6 @@ public abstract class ProduitFermier {
      * 
      */
     private boolean isVendable;
-
-
-
-
 
     /**
      * 
