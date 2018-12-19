@@ -19,5 +19,6 @@ public class CotisationBase implements ICotisation {
     @Override
     public double calculerCotisation() {
         return participant.getGain () * 0.1;
+
     }
 }
