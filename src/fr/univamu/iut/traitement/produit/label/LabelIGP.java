@@ -1,9 +1,11 @@
 package fr.univamu.iut.traitement.produit.label;
 
+import fr.univamu.iut.traitement.produit.ProduitFermier;
+
 /**
  * 
  */
-public class LabelIGP extends ILabel {
+public class LabelIGP implements ILabel {
 
     /**
      * Default constructor
@@ -11,4 +13,8 @@ public class LabelIGP extends ILabel {
     public LabelIGP() {
     }
 
+    @Override
+    public void valider(ProduitFermier produit) {
+        //TODO
+    }
 }
