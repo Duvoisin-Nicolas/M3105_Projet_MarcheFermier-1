@@ -10,9 +10,12 @@ import fr.univamu.iut.traitement.produit.label.ILabel;
 public abstract class ProduitFermier {
 
     /**
-     * Default constructor
+     * @param datePeremption
+     * @param quantite
      */
-    public ProduitFermier() {
+    public ProduitFermier(LocalDate datePeremption, int quantite) {
+        this.datePeremption = datePeremption;
+        this.quantite = quantite;
     }
 
     /**
