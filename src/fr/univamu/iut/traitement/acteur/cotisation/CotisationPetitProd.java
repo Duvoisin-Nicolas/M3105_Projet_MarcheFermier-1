@@ -1,5 +1,6 @@
 package fr.univamu.iut.traitement.acteur.cotisation;
 
+import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.acteur.producteur.Producteur;
 
 /**
