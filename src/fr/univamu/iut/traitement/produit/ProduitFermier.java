@@ -2,7 +2,6 @@ package fr.univamu.iut.traitement.produit;
 
 import java.time.LocalDate;
 import java.util.HashSet;
-
 import fr.univamu.iut.traitement.produit.label.ILabel;
 
 /**
