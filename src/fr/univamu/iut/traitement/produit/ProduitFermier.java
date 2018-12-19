@@ -2,6 +2,8 @@ package fr.univamu.iut.traitement.produit;
 
 import java.time.LocalDate;
 import java.util.HashSet;
+
+import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.produit.label.ILabel;
 
 /**
@@ -23,6 +25,8 @@ public abstract class ProduitFermier {
      */
     protected LocalDate datePeremption;
 
+
+
     /**
      *
      */
@@ -39,7 +43,7 @@ public abstract class ProduitFermier {
     protected boolean isVendable;
 
     /**
-     *
+
      */
     public abstract void labeliser(ILabel label);
 
@@ -54,5 +58,6 @@ public abstract class ProduitFermier {
             this.isVendable = false;
         }
     }
+
 
 }

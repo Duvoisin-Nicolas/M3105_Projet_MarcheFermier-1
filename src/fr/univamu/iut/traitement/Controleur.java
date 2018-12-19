@@ -1,5 +1,7 @@
 package fr.univamu.iut.traitement;
 
+import fr.univamu.iut.traitement.acteur.Participant;
+
 /**
  * 
  */
@@ -16,8 +18,20 @@ public class Controleur {
     /**
      * 
      */
-    public void choisirAcheteur() {
-        // TODO implement here
+    public void choisirAcheteur(Offre offre, Participant acheteur){
+        if(offre.checkAcheteur(acheteur)){
+
+
+            if(acheteur.getSolde() >= offre.getPrix()){
+                offre.getVendeur().vente(offre.getPrix());
+                acheteur.achat(offre.getPrix());
+
+            }
+            else{
+                System.out.println("Solde insuffisant de l'acheteur");
+            }
+
+        }
     }
 
     /**
