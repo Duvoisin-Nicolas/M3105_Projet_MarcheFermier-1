@@ -16,6 +16,11 @@ public abstract class UniteDeProduction {
         this.capaciteDeProduction = capaciteDeProduction;
     }
 
+
+    public int getCapaciteDeProduction() {
+        return capaciteDeProduction;
+    }
+
     /**
      * @return ProduitFermier (abstrait)
      */
