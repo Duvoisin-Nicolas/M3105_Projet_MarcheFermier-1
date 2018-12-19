@@ -1,20 +1,25 @@
 package fr.univamu.iut.traitement.production;
 
+import fr.univamu.iut.traitement.produit.Ble;
 import fr.univamu.iut.traitement.produit.ProduitFermier;
+
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 /**
  * 
  */
-public class ProductionBle implements UnitéDeProduction {
+public class ProductionBle extends UniteDeProduction {
 
     /**
-     * Default constructor
+     * Constructeur d'une unite de production avec une capacite de production définie
      */
-    public ProductionBle() {
+    public ProductionBle(int capaciteDeProduction) {
+        super(capaciteDeProduction);
     }
 
     @Override
     public ProduitFermier fabriquer() {
-        return null;
+        return new Ble(LocalDate.now().plus(30, ChronoUnit.DAYS),getCapaciteDeProduction());
     }
 }
