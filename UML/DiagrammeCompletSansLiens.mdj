@@ -63,7 +63,7 @@
 											"top": 287,
 											"width": 135,
 											"height": 13,
-											"text": "ProducteurLaitier"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.ProducteurLaitier"
 										},
 										{
 											"_type": "LabelView",
@@ -239,7 +239,7 @@
 											"top": 287,
 											"width": 128.349609375,
 											"height": 13,
-											"text": "Eleveur"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Eleveur"
 										},
 										{
 											"_type": "LabelView",
@@ -415,7 +415,7 @@
 											"top": 287,
 											"width": 122.45361328125,
 											"height": 13,
-											"text": "Horticulteur"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Horticulteur"
 										},
 										{
 											"_type": "LabelView",
@@ -591,7 +591,7 @@
 											"top": 287,
 											"width": 135,
 											"height": 13,
-											"text": "Arboriculteur"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Arboriculteur"
 										},
 										{
 											"_type": "LabelView",
@@ -768,7 +768,7 @@
 											"top": 108,
 											"width": 91.06982421875,
 											"height": 13,
-											"text": "Producteur"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Producteur"
 										},
 										{
 											"_type": "LabelView",
@@ -1497,7 +1497,7 @@
 											"top": 751,
 											"width": 128.76513671875,
 											"height": 13,
-											"text": "ProdViandeDeBoeuf"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.ProdViandeDeBoeuf"
 										},
 										{
 											"_type": "LabelView",
@@ -1673,7 +1673,7 @@
 											"top": 759,
 											"width": 115.5654296875,
 											"height": 13,
-											"text": "Pomme"
+											"text": "fr.univamu.iut.traitement.produit.Pomme"
 										},
 										{
 											"_type": "LabelView",
@@ -1849,7 +1849,7 @@
 											"top": 783,
 											"width": 123.50634765625,
 											"height": 13,
-											"text": "Fromage"
+											"text": "fr.univamu.iut.traitement.produit.Fromage"
 										},
 										{
 											"_type": "LabelView",
@@ -2555,7 +2555,7 @@
 											"top": 767,
 											"width": 114.11181640625,
 											"height": 13,
-											"text": "Carotte"
+											"text": "fr.univamu.iut.traitement.produit.Carotte"
 										},
 										{
 											"_type": "LabelView",
@@ -4009,7 +4009,7 @@
 											"top": 791,
 											"width": 88.83544921875,
 											"height": 13,
-											"text": "Ble"
+											"text": "fr.univamu.iut.traitement.produit.Ble"
 										},
 										{
 											"_type": "LabelView",
@@ -4373,7 +4373,7 @@
 											"top": 287,
 											"width": 103,
 											"height": 13,
-											"text": "Céréalier"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Céréalier"
 										},
 										{
 											"_type": "LabelView",
@@ -4549,7 +4549,7 @@
 											"top": 287,
 											"width": 103,
 											"height": 13,
-											"text": "Apiculteur"
+											"text": "fr.univamu.iut.traitement.acteur.producteur.Apiculteur"
 										},
 										{
 											"_type": "LabelView",
@@ -4913,7 +4913,7 @@
 											"top": 623,
 											"width": 98.21728515625,
 											"height": 13,
-											"text": "Oeuf"
+											"text": "fr.univamu.iut.traitement.produit.Oeuf"
 										},
 										{
 											"_type": "LabelView",
@@ -5089,7 +5089,7 @@
 											"top": 743,
 											"width": 93.88818359375,
 											"height": 13,
-											"text": "Miel"
+											"text": "fr.univamu.iut.traitement.produit.Miel"
 										},
 										{
 											"_type": "LabelView",
@@ -6537,7 +6537,7 @@
 											"top": 28,
 											"width": 67.18359375,
 											"height": 13,
-											"text": "Participant"
+											"text": "fr.univamu.iut.traitement.acteur.Participant"
 										},
 										{
 											"_type": "LabelView",
@@ -6807,7 +6807,7 @@
 											"top": 1127,
 											"width": 167.76513671875,
 											"height": 13,
-											"text": "ProductionViandeDeBoeuf"
+											"text": "fr.univamu.iut.traitement.production.ProductionViandeDeBoeuf"
 										},
 										{
 											"_type": "LabelView",
@@ -6983,7 +6983,7 @@
 											"top": 1287,
 											"width": 99,
 											"height": 13,
-											"text": "ProductionOeuf"
+											"text": "fr.univamu.iut.traitement.production.ProductionOeuf"
 										},
 										{
 											"_type": "LabelView",
@@ -7335,7 +7335,7 @@
 											"top": 1383,
 											"width": 96,
 											"height": 13,
-											"text": "ProductionMiel"
+											"text": "fr.univamu.iut.traitement.production.ProductionMiel"
 										},
 										{
 											"_type": "LabelView",
@@ -7511,7 +7511,7 @@
 											"top": 1391,
 											"width": 118,
 											"height": 13,
-											"text": "ProductionPomme"
+											"text": "fr.univamu.iut.traitement.production.ProductionPomme"
 										},
 										{
 											"_type": "LabelView",
@@ -7687,7 +7687,7 @@
 											"top": 1375,
 											"width": 115,
 											"height": 13,
-											"text": "ProductionCarotte"
+											"text": "fr.univamu.iut.traitement.production.ProductionCarotte"
 										},
 										{
 											"_type": "LabelView",
@@ -7863,7 +7863,7 @@
 											"top": 1343,
 											"width": 126,
 											"height": 13,
-											"text": "ProductionFromage"
+											"text": "fr.univamu.iut.traitement.production.ProductionFromage"
 										},
 										{
 											"_type": "LabelView",
@@ -8215,7 +8215,7 @@
 											"top": 1135,
 											"width": 90,
 											"height": 13,
-											"text": "ProductionBle"
+											"text": "fr.univamu.iut.traitement.production.ProductionBle"
 										},
 										{
 											"_type": "LabelView",
@@ -9237,7 +9237,7 @@
 											"top": 959,
 											"width": 47,
 											"height": 13,
-											"text": "Marche"
+											"text": "fr.univamu.iut.traitement.Marche"
 										},
 										{
 											"_type": "LabelView",
@@ -9413,7 +9413,7 @@
 											"top": 951,
 											"width": 41.919921875,
 											"height": 13,
-											"text": "Offre"
+											"text": "fr.univamu.iut.traitement.Offre"
 										},
 										{
 											"_type": "LabelView",
@@ -9589,7 +9589,7 @@
 											"top": 951,
 											"width": 67,
 											"height": 13,
-											"text": "Controleur"
+											"text": "fr.univamu.iut.traitement.Controleur"
 										},
 										{
 											"_type": "LabelView",
@@ -9764,7 +9764,7 @@
 											"top": 143,
 											"width": 57,
 											"height": 13,
-											"text": "Grossite"
+											"text": "fr.univamu.iut.traitement.acteur.Grossite"
 										},
 										{
 											"_type": "LabelView",
@@ -9936,7 +9936,7 @@
 											"top": 119,
 											"width": 41.28271484375,
 											"height": 13,
-											"text": "Trader"
+											"text": "fr.univamu.iut.traitement.acteur.Trader"
 										},
 										{
 											"_type": "LabelView",
@@ -10265,7 +10265,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProducteurLaitier",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.ProducteurLaitier",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10288,7 +10288,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Eleveur",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Eleveur",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10311,7 +10311,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Horticulteur",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Horticulteur",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10334,7 +10334,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Arboriculteur",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Arboriculteur",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10357,7 +10357,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Producteur",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Producteur",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10392,7 +10392,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProdViandeDeBoeuf",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.ProdViandeDeBoeuf",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10428,7 +10428,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Pomme",
+					"name": "fr.univamu.iut.traitement.produit.Pomme",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10464,7 +10464,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Fromage",
+					"name": "fr.univamu.iut.traitement.produit.Fromage",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10575,7 +10575,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Carotte",
+					"name": "fr.univamu.iut.traitement.produit.Carotte",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10697,7 +10697,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ble",
+					"name": "fr.univamu.iut.traitement.produit.Ble",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10733,7 +10733,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Céréalier",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Céréalier",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10756,7 +10756,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Apiculteur",
+					"name": "fr.univamu.iut.traitement.acteur.producteur.Apiculteur",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10779,7 +10779,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Oeuf",
+					"name": "fr.univamu.iut.traitement.produit.Oeuf",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10815,7 +10815,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Miel",
+					"name": "fr.univamu.iut.traitement.produit.Miel",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10947,7 +10947,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Participant",
+					"name": "fr.univamu.iut.traitement.acteur.Participant",
 					"stereotype": "abstract",
 					"isAbstract": true
 				},
@@ -10957,7 +10957,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionViandeDeBoeuf",
+					"name": "fr.univamu.iut.traitement.production.ProductionViandeDeBoeuf",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -10980,7 +10980,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionOeuf",
+					"name": "fr.univamu.iut.traitement.production.ProductionOeuf",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11026,7 +11026,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionMiel",
+					"name": "fr.univamu.iut.traitement.production.ProductionMiel",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11049,7 +11049,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionPomme",
+					"name": "fr.univamu.iut.traitement.production.ProductionPomme",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11072,7 +11072,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionCarotte",
+					"name": "fr.univamu.iut.traitement.production.ProductionCarotte",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11095,7 +11095,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionFromage",
+					"name": "fr.univamu.iut.traitement.production.ProductionFromage",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11141,7 +11141,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ProductionBle",
+					"name": "fr.univamu.iut.traitement.production.ProductionBle",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11164,7 +11164,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Marche"
+					"name": "fr.univamu.iut.traitement.Marche"
 				},
 				{
 					"_type": "UMLClass",
@@ -11172,7 +11172,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Offre"
+					"name": "fr.univamu.iut.traitement.Offre"
 				},
 				{
 					"_type": "UMLClass",
@@ -11180,7 +11180,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Controleur"
+					"name": "fr.univamu.iut.traitement.Controleur"
 				},
 				{
 					"_type": "UMLClass",
@@ -11196,7 +11196,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Grossite",
+					"name": "fr.univamu.iut.traitement.acteur.Grossite",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -11219,7 +11219,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Trader",
+					"name": "fr.univamu.iut.traitement.acteur.Trader",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
