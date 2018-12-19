@@ -7,17 +7,22 @@ import fr.univamu.iut.traitement.acteur.Participant;
  */
 public abstract class Producteur extends Participant {
 
+    private String id;
     /**
      * Default constructor
      */
-    public Producteur() {
-    }
+    public Producteur() {}
 
     /**
-     * 
+     * Fonction permettant de produire l'objet de sa factory
      */
-    public void produire() {
-        // TODO implement here
+    public abstract void produire();
+
+    public String getId() {
+        return id;
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 }
