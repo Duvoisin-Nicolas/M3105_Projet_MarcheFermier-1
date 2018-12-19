@@ -6,12 +6,12 @@ import java.time.LocalDate;
 /**
  * 
  */
-public class Miel extends ProduitAbeille {
+public class ViandeDeBoeuf extends Viande {
 
     /**
      * Default constructor
      */
-    public Miel(LocalDate datePeremption, int quantite) {
+    public ViandeDeBoeuf(LocalDate datePeremption, int quantite) {
         super(datePeremption,quantite);
     }
 
