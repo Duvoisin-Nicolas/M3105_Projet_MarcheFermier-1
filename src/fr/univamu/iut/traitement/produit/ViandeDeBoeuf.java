@@ -1,7 +1,6 @@
 package fr.univamu.iut.traitement.produit;
 
 import fr.univamu.iut.traitement.produit.label.ILabel;
-
 /**
  * 
  */
