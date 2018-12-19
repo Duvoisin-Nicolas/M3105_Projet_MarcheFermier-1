@@ -1,8 +1,7 @@
 package fr.univamu.iut.traitement.produit;
 
-import fr.univamu.iut.traitement.produit.label.ILabel;
-
 import java.time.LocalDate;
+import fr.univamu.iut.traitement.produit.label.ILabel;
 
 /**
  *
