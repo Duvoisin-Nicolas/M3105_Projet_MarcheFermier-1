@@ -21,7 +21,7 @@ public class Offre {
     private ArrayList<Participant> Acheteurs;
 
     /**
-     *
+     *  Participant ayant publié l'offre
      */
     private Participant Vendeur;
 
@@ -31,11 +31,14 @@ public class Offre {
     private ProduitFermier ProduitEnVente;
 
     /**
-     *
+     *  Prix de l'offre
      */
     private int prix;
 
 
+    /**
+     * Participant ayant acheté l'offre (sert à conserver l'acheteur pour un historique
+     */
     private Participant Acheteur;
 
     /**
@@ -115,6 +118,13 @@ public class Offre {
         this.estDisponible = estDisponible;
     }
 
+    /**
+     *
+     * @return
+     */
+    public ProduitFermier getProduitEnVente() {
+        return ProduitEnVente;
+    }
 
     /**
      * Fonction permettant d'ajouter un acheteur potentiel à la liste

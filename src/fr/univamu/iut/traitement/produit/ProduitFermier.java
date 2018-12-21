@@ -59,5 +59,11 @@ public abstract class ProduitFermier {
         }
     }
 
-
+    /**
+     *
+     * @return
+     */
+    public boolean isVendable() {
+        return isVendable;
+    }
 }
