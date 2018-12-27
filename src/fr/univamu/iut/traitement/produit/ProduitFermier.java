@@ -2,6 +2,7 @@ package fr.univamu.iut.traitement.produit;
 
 import java.time.LocalDate;
 import java.util.HashSet;
+import java.util.Objects;
 
 import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.produit.label.ILabel;
@@ -65,5 +66,16 @@ public abstract class ProduitFermier {
      */
     public boolean isVendable() {
         return isVendable;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ProduitFermier that = (ProduitFermier) o;
+        return quantite == that.quantite &&
+                isVendable == that.isVendable &&
+                Objects.equals(datePeremption, that.datePeremption) &&
+                Objects.equals(mesLabelsValides, that.mesLabelsValides);
     }
 }
