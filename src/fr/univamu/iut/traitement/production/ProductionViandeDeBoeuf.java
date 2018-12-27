@@ -2,6 +2,10 @@ package fr.univamu.iut.traitement.production;
 
 import fr.univamu.iut.traitement.produit.ProduitFermier;
 import fr.univamu.iut.traitement.produit.Viande;
+import fr.univamu.iut.traitement.produit.ViandeDeBoeuf;
+
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 /**
  * 
@@ -17,6 +21,6 @@ public class ProductionViandeDeBoeuf extends UniteDeProduction {
 
     @Override
     public ProduitFermier fabriquer() {
-        //TODO Ajouter constructeur viande de boeuf
+        return new ViandeDeBoeuf(LocalDate.now().plus(30, ChronoUnit.DAYS),getCapaciteDeProduction());
     }
 }
