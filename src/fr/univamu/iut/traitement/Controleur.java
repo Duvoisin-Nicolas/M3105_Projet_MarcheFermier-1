@@ -40,16 +40,12 @@ public class Controleur {
      * 
      */
     public boolean verifierStock(Offre offre) {
-        // TODO implement here
-        /*
         for(ProduitFermier produitFermier : offre.getVendeur().getInventaire()){
                 if(offre.getProduitEnVente() == produitFermier ){      //à modifier
                     return true;    // le produit a été trouvé
                 }
         }
         return false; //le produit n'a pas été trouvé
-        */
-        return true;
     }
 
     /**
