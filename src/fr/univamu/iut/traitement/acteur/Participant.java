@@ -9,7 +9,7 @@ import java.util.List;
 /**
  *  Interface correspondant à l'ensemble des acteurs du systeme
  */
-public abstract class Participant {
+public abstract class Participant implements IObservateur{
 
     /**
      * Id du participant
@@ -142,5 +142,10 @@ public abstract class Participant {
      */
     public void setId(String id) {
         this.id = id;
+    }
+
+    @Override
+    public void mettreAJour(ProduitFermier produit) {
+        System.out.println(this.getId() + " est notifié de l'arrivée d'une nouvelle offre de " + produit.getClass().getSimpleName());
     }
 }
