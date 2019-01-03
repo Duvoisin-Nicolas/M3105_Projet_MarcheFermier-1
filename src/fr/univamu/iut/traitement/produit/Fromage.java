@@ -14,10 +14,4 @@ public class Fromage extends ProduitLaitier {
     public Fromage(LocalDate datePeremption, int quantite) {
         super(datePeremption,quantite);
     }
-
-    @Override
-    public void labeliser(ILabel label) {
-        label.valider(this);
-    }
-
 }

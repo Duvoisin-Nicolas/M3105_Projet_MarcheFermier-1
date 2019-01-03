@@ -15,9 +15,4 @@ public class Pomme extends Fruit {
         super(datePeremption,quantite);
     }
 
-    @Override
-    public void labeliser(ILabel label) {
-        label.valider(this);
-    }
-
 }

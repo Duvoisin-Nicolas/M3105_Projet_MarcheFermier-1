@@ -14,10 +14,4 @@ public class Ble extends Cereale {
     public Ble(LocalDate datePeremption, int quantite) {
         super(datePeremption,quantite);
     }
-
-    @Override
-    public void labeliser(ILabel label) {
-        label.valider(this);
-    }
-
 }

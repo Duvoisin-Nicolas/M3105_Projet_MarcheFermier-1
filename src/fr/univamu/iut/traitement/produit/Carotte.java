@@ -15,9 +15,4 @@ public class Carotte extends Legume {
         super(datePeremption,quantite);
     }
 
-    @Override
-    public void labeliser(ILabel label) {
-        label.valider(this);
-    }
-
 }
