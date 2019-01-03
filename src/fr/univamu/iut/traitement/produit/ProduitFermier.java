@@ -52,7 +52,7 @@ public abstract class ProduitFermier {
      *
      */
     public void valider(){
-        if(this.datePeremption.isAfter(LocalDate.now())){
+        if(this.datePeremption.isAfter(LocalDate.now()) && quantite != 0){
             this.isVendable = true;
         }
         else{
