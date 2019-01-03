@@ -3,10 +3,11 @@ package fr.univamu.iut.traitement.produit;
 import fr.univamu.iut.traitement.acteur.IObservateur;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public abstract class Observable {
 
-    private HashSet<IObservateur> mesAbonnes;
+    protected Set<IObservateur> mesAbonnes = new HashSet<>();
 
     public void ajouterAbonne(IObservateur observateur){
         mesAbonnes.add(observateur);
