@@ -22,6 +22,7 @@ public class Cerealier extends Producteur {
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionBle.fabriquer());
+        if (productionBle != null)
+            this.ajouterProduit(productionBle.fabriquer());
     }
 }
