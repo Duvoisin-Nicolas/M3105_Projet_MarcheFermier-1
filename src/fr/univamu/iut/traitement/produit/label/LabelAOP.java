@@ -14,7 +14,16 @@ public class LabelAOP implements ILabel {
     }
 
     @Override
-    public void valider(ProduitFermier produit) {
-        //TODO
+    public boolean valider(ProduitFermier produit) {
+        if (produit.isVendable()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Label AOP";
     }
 }

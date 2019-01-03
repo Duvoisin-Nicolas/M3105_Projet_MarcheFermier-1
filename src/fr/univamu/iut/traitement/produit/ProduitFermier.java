@@ -19,6 +19,7 @@ public abstract class ProduitFermier {
     public ProduitFermier(LocalDate datePeremption, int quantite) {
         this.datePeremption = datePeremption;
         this.quantite = quantite;
+        this.mesLabelsValides = new HashSet<>();
     }
 
     /**
@@ -46,13 +47,16 @@ public abstract class ProduitFermier {
     /**
 
      */
-    public abstract void labeliser(ILabel label);
+    public void labeliser(ILabel label){
+        if (label.valider(this))
+            getMesLabelsValides().add(label);
+    }
 
     /**
      *
      */
     public void valider(){
-        if(this.datePeremption.isAfter(LocalDate.now())){
+        if(this.datePeremption.isAfter(LocalDate.now()) && quantite != 0){
             this.isVendable = true;
         }
         else{
