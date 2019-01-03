@@ -14,7 +14,7 @@ public class LabelAOP implements ILabel {
     }
 
     @Override
-    public void valider(ProduitFermier produit) {
+    public boolean valider(ProduitFermier produit) {
         //TODO
     }
 }

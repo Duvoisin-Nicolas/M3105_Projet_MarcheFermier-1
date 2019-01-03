@@ -14,9 +14,12 @@ public class LabelAOC implements ILabel {
     }
 
     @Override
-    public void valider(ProduitFermier produit) {
-        if (produit.isVendable())
-            produit.getMesLabelsValides().add(this);
+    public boolean valider(ProduitFermier produit) {
+        if (produit.isVendable()) {
+            System.out.println("Labelisable");
+        } else {
+            System.out.println("Produit non labelisable");
+        }
     }
 
     @Override
