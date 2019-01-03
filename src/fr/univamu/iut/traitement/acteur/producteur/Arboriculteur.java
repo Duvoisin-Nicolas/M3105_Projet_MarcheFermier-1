@@ -22,7 +22,8 @@ public class Arboriculteur extends Producteur {
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionPomme.fabriquer());
+        if (productionPomme != null)
+            this.ajouterProduit(productionPomme.fabriquer());
     }
 
 }
