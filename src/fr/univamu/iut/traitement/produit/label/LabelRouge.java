@@ -15,6 +15,15 @@ public class LabelRouge implements ILabel {
 
     @Override
     public boolean valider(ProduitFermier produit) {
-        //TODO
+        if (produit.isVendable()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Label Rouge";
     }
 }
