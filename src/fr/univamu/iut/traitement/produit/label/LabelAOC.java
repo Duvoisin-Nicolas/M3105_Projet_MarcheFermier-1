@@ -18,4 +18,9 @@ public class LabelAOC implements ILabel {
         if (produit.isVendable())
             produit.getMesLabelsValides().add(this);
     }
+
+    @Override
+    public String toString() {
+        return "Label AOC";
+    }
 }
