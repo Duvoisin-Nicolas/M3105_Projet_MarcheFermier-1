@@ -23,6 +23,7 @@ public class Apiculteur extends Producteur {
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionMiel.fabriquer());
+        if (productionMiel != null)
+            this.ajouterProduit(productionMiel.fabriquer());
     }
 }

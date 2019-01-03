@@ -13,13 +13,14 @@ public class EleveurDeBoeuf extends Eleveur {
 
     @Override
     public void setProduction(UniteDeProduction uniteDeProduction) {
-        if (uniteDeProduction.getClass().equals("ProductionViandeDeBoeuf")) {
+        if (uniteDeProduction.getClass().getSimpleName().equals("ProductionViandeDeBoeuf")) {
             this.productionViandeDeBoeuf = (ProductionViandeDeBoeuf) uniteDeProduction;
         }
     }
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionViandeDeBoeuf.fabriquer());
+        if (productionViandeDeBoeuf != null)
+            this.ajouterProduit(productionViandeDeBoeuf.fabriquer());
     }
 }

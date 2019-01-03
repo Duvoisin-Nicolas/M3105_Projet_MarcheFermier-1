@@ -22,7 +22,8 @@ public class ProducteurLaitier extends Producteur {
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionFromage.fabriquer());
+        if (productionFromage != null)
+            this.ajouterProduit(productionFromage.fabriquer());
     }
 
 }
