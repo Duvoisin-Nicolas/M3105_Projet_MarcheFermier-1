@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Objects;
 
-import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.produit.label.ILabel;
 
 /**
