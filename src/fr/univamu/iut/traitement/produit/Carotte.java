@@ -1,12 +1,17 @@
 package fr.univamu.iut.traitement.produit;
 
-import fr.univamu.iut.traitement.produit.label.ILabel;
+import fr.univamu.iut.traitement.acteur.IObservateur;
+
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 
  */
-public class Carotte extends Legume {
+public class Carotte extends Legume{
+
+    private static Set<IObservateur> mesAbonnes = new HashSet<>();
 
     /**
      * Default constructor
@@ -16,7 +21,19 @@ public class Carotte extends Legume {
     }
 
     @Override
-    public void notifier() {
-        //TODO
+    public void ajouterAbonne(IObservateur observateur) {
+        mesAbonnes.add(observateur);
+    }
+
+    @Override
+    public void retirerAbonne(IObservateur observateur) {
+        mesAbonnes.remove(observateur);
+    }
+
+    @Override
+    public void notifier(){
+        for(IObservateur observateur : mesAbonnes){
+            observateur.mettreAJour(this);
+        }
     }
 }
