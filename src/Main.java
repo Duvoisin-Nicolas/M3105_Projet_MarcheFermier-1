@@ -6,6 +6,7 @@ import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.acteur.Trader;
 import fr.univamu.iut.traitement.acteur.producteur.*;
 import fr.univamu.iut.traitement.production.*;
+import fr.univamu.iut.traitement.produit.Cereale;
 import fr.univamu.iut.traitement.produit.ProduitFermier;
 
 import java.util.ArrayList;
@@ -56,7 +57,7 @@ public class Main {
         }
     }//VueDesCotisations
 
-    public void main (String [] args) {
+    public static void main (String [] args) {
         Marche marche = new Marche();
         Controleur controleur = new Controleur();
 
@@ -70,14 +71,41 @@ public class Main {
 
         ArrayList<Participant> tousLesParticipantsDuMarche = new ArrayList<>();
 
-        tousLesParticipantsDuMarche.add(new Apiculteur());
-        tousLesParticipantsDuMarche.add(new Arboriculteur());
-        tousLesParticipantsDuMarche.add(new Cerealier());
-        tousLesParticipantsDuMarche.add(new Eleveur());
-        tousLesParticipantsDuMarche.add(new Horticulteur());
-        tousLesParticipantsDuMarche.add(new ProducteurLaitier());
-        tousLesParticipantsDuMarche.add(new Grossiste());
-        tousLesParticipantsDuMarche.add(new Trader());
+        Apiculteur apiculteur = new Apiculteur();
+        apiculteur.setProductionMiel(productionMiel);
+        tousLesParticipantsDuMarche.add(apiculteur);
+
+        Arboriculteur arboriculteur = new Arboriculteur();
+        arboriculteur.setProductionPomme(productionPomme);
+        tousLesParticipantsDuMarche.add(arboriculteur);
+
+        Cerealier cerealier = new Cerealier();
+        cerealier.setProductionBle(productionBle);
+        tousLesParticipantsDuMarche.add(cerealier);
+
+        Eleveur eleveur = new Eleveur();
+        eleveur.setProductionOeuf(productionOeuf);
+        eleveur.setProductionViandeDeBoeuf(productionViandeDeBoeuf);
+        tousLesParticipantsDuMarche.add(eleveur);
+
+        Horticulteur horticulteur = new Horticulteur();
+        horticulteur.setProductionCarotte(productionCarotte);
+        tousLesParticipantsDuMarche.add(horticulteur);
+
+        ProducteurLaitier producteurLaitier = new ProducteurLaitier();
+        producteurLaitier.setProductionFromage(productionFromage);
+        tousLesParticipantsDuMarche.add(producteurLaitier);
+
+        Grossiste grossiste = new Grossiste();
+        tousLesParticipantsDuMarche.add(grossiste);
+        Trader trader = new Trader();
+        tousLesParticipantsDuMarche.add(trader);
+
+        eleveur.produire();
+        System.out.println(eleveur.getInventaire());
+        for (ProduitFermier produit : eleveur.getInventaire()) {
+            System.out.println(produit.getQuantite());
+        }
 
 
     }//main
