@@ -6,8 +6,7 @@ import fr.univamu.iut.traitement.acteur.Participant;
 import fr.univamu.iut.traitement.acteur.Trader;
 import fr.univamu.iut.traitement.acteur.producteur.*;
 import fr.univamu.iut.traitement.production.*;
-import fr.univamu.iut.traitement.produit.Cereale;
-import fr.univamu.iut.traitement.produit.ProduitFermier;
+import fr.univamu.iut.traitement.produit.*;
 
 import java.util.ArrayList;
 
@@ -109,6 +108,17 @@ public class Main {
         for (ProduitFermier produit : eleveurDeBoeuf.getInventaire()) {
             System.out.println(produit.getQuantite());
         }
+
+        //Test de l'observeur pour les notifications
+        productionBle.fabriquer().ajouterAbonne(grossiste);
+        productionPomme.fabriquer().ajouterAbonne(grossiste);
+        productionPomme.fabriquer().ajouterAbonne(grossiste);
+        productionPomme.fabriquer().ajouterAbonne(grossiste);
+        productionCarotte.fabriquer().ajouterAbonne(grossiste);
+
+        Offre offre_pomme = new Offre(horticulteur,productionPomme.fabriquer(),50);
+        Offre offre_ble = new Offre(horticulteur,productionBle.fabriquer(),50);
+        //Fin test de l'observeur
 
 
     }//main
