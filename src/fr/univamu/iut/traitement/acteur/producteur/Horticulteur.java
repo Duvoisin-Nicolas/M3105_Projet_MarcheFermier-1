@@ -22,7 +22,8 @@ public class Horticulteur extends Producteur {
 
     @Override
     public void produire() {
-        this.ajouterProduit(productionCarotte.fabriquer());
+        if (productionCarotte != null)
+            this.ajouterProduit(productionCarotte.fabriquer());
     }
 
 }
