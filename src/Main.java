@@ -83,10 +83,13 @@ public class Main {
         cerealier.setProductionBle(productionBle);
         tousLesParticipantsDuMarche.add(cerealier);
 
-        Eleveur eleveur = new Eleveur();
-        eleveur.setProductionOeuf(productionOeuf);
-        eleveur.setProductionViandeDeBoeuf(productionViandeDeBoeuf);
-        tousLesParticipantsDuMarche.add(eleveur);
+        EleveurDePoule eleveurDePoule = new EleveurDePoule();
+        eleveurDePoule.setProduction(productionOeuf);
+        tousLesParticipantsDuMarche.add(eleveurDePoule);
+
+        EleveurDeBoeuf eleveurDeBoeuf = new EleveurDeBoeuf();
+        eleveurDeBoeuf.setProduction(productionViandeDeBoeuf);
+        tousLesParticipantsDuMarche.add(eleveurDeBoeuf);
 
         Horticulteur horticulteur = new Horticulteur();
         horticulteur.setProductionCarotte(productionCarotte);
@@ -101,9 +104,9 @@ public class Main {
         Trader trader = new Trader();
         tousLesParticipantsDuMarche.add(trader);
 
-        eleveur.produire();
-        System.out.println(eleveur.getInventaire());
-        for (ProduitFermier produit : eleveur.getInventaire()) {
+        eleveurDeBoeuf.produire();
+        System.out.println(eleveurDeBoeuf.getInventaire());
+        for (ProduitFermier produit : eleveurDeBoeuf.getInventaire()) {
             System.out.println(produit.getQuantite());
         }
 
