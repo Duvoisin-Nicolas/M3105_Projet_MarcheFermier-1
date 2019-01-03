@@ -15,4 +15,8 @@ public class Pomme extends Fruit {
         super(datePeremption,quantite);
     }
 
+    @Override
+    public void notifier() {
+        //TODO
+    }
 }

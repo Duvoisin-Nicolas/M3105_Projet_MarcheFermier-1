@@ -15,4 +15,8 @@ public class Miel extends ProduitAbeille {
         super(datePeremption,quantite);
     }
 
+    @Override
+    public void notifier() {
+        //TODO
+    }
 }

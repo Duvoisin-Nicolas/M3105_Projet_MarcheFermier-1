@@ -10,7 +10,7 @@ import fr.univamu.iut.traitement.produit.label.ILabel;
 /**
  *
  */
-public abstract class ProduitFermier {
+public abstract class ProduitFermier extends Observable{
 
     /**
      * @param datePeremption

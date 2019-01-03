@@ -15,4 +15,8 @@ public class Oeuf extends ProduitElevage {
         super(datePeremption,quantite);
     }
 
+    @Override
+    public void notifier() {
+        //TODO
+    }
 }

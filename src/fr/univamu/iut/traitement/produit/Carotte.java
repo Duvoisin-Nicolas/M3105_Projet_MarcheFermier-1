@@ -15,4 +15,8 @@ public class Carotte extends Legume {
         super(datePeremption,quantite);
     }
 
+    @Override
+    public void notifier() {
+        //TODO
+    }
 }

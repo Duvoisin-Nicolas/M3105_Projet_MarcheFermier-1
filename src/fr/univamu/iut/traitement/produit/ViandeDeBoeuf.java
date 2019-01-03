@@ -16,4 +16,9 @@ public class ViandeDeBoeuf extends Viande {
     public ViandeDeBoeuf(LocalDate datePeremption, int quantite) {
         super(datePeremption,quantite);
     }
+
+    @Override
+    public void notifier() {
+        //TODO
+    }
 }
