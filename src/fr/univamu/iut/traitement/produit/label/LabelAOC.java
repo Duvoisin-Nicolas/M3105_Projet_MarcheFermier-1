@@ -16,9 +16,9 @@ public class LabelAOC implements ILabel {
     @Override
     public boolean valider(ProduitFermier produit) {
         if (produit.isVendable()) {
-            System.out.println("Labelisable");
+            return true;
         } else {
-            System.out.println("Produit non labelisable");
+            return false;
         }
     }
 
