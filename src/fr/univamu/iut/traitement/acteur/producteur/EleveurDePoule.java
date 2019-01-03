@@ -13,13 +13,18 @@ public class EleveurDePoule extends Eleveur {
 
     @Override
     public void setProduction(UniteDeProduction uniteDeProduction) {
-        if (uniteDeProduction.getClass().equals("ProductionOeuf")) {
+        if (uniteDeProduction.getClass().getSimpleName().equals("ProductionOeuf")) {
             this.productionOeuf = (ProductionOeuf) uniteDeProduction;
         }
     }
 
+    public ProductionOeuf getProductionOeuf() {
+        return productionOeuf;
+    }
+
     @Override
     public void produire() {
-        this.ajouterProduit(productionOeuf.fabriquer());
+        if (productionOeuf != null)
+            this.ajouterProduit(productionOeuf.fabriquer());
     }
 }
