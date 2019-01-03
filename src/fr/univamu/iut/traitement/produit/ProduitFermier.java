@@ -19,6 +19,7 @@ public abstract class ProduitFermier {
     public ProduitFermier(LocalDate datePeremption, int quantite) {
         this.datePeremption = datePeremption;
         this.quantite = quantite;
+        this.mesLabelsValides = new HashSet<>();
     }
 
     /**
