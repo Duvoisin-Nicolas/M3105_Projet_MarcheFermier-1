@@ -47,7 +47,10 @@ public abstract class ProduitFermier {
     /**
 
      */
-    public abstract void labeliser(ILabel label);
+    public void labeliser(ILabel label){
+        if (label.valider(this))
+            getMesLabelsValides().add(label);
+    }
 
     /**
      *
