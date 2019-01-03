@@ -78,4 +78,16 @@ public abstract class ProduitFermier {
                 Objects.equals(datePeremption, that.datePeremption) &&
                 Objects.equals(mesLabelsValides, that.mesLabelsValides);
     }
+
+    public LocalDate getDatePeremption() {
+        return datePeremption;
+    }
+
+    public int getQuantite() {
+        return quantite;
+    }
+
+    public HashSet<ILabel> getMesLabelsValides() {
+        return mesLabelsValides;
+    }
 }
