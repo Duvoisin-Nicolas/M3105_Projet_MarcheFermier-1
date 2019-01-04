@@ -13,5 +13,4 @@ public class Trader extends Participant {
     public Trader() {
         this.setId("Trader " + compteurId);
     }
-
 }

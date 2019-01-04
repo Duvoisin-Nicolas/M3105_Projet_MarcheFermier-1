@@ -3,7 +3,7 @@ package fr.univamu.iut.traitement.acteur;
 /**
  * 
  */
-public class Grossiste extends Participant {
+public class Grossiste extends Participant{
 
     private static int compteurId = 0;
 
@@ -13,5 +13,4 @@ public class Grossiste extends Participant {
     public Grossiste() {
         this.setId("Grossite " + compteurId);
     }
-
 }

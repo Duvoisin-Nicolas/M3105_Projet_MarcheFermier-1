@@ -47,6 +47,9 @@ public class Offre {
     public Offre(Participant vendeur, ProduitFermier produitEnVente, int prix) {
         Vendeur = vendeur;
         ProduitEnVente = produitEnVente;
+        //TODO Mettre cette instruction à la validaton de l'offre
+        produitEnVente.notifier();
+        //END TODO
         this.prix = prix;
         Acheteurs = new ArrayList<Participant>();
         estDisponible = true;
