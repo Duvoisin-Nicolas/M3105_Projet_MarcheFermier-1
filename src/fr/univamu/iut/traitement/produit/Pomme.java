@@ -36,4 +36,8 @@ public class Pomme extends Fruit{
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Pomme";
+    }
 }

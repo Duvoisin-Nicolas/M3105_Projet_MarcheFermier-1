@@ -36,4 +36,9 @@ public class Ble extends Cereale{
             observateur.mettreAJour(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Blé";
+    }
 }

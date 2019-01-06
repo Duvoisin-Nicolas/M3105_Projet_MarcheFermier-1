@@ -36,4 +36,8 @@ public class Oeuf extends ProduitElevage{
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Oeuf";
+    }
 }

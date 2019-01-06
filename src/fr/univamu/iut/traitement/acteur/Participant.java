@@ -18,8 +18,9 @@ public abstract class Participant implements IObservateur{
 
     /**
      * Solde disponible de l'acteur
+     * Valeur aléatoire entre 200 et 500
      */
-    private double solde;
+    private double solde = Math.random() * 300 + 200;
 
     /**
      * Gains générés par l'acteur

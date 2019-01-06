@@ -36,4 +36,8 @@ public class ViandeDeBoeuf extends Viande {
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Viande de Boeuf";
+    }
 }
