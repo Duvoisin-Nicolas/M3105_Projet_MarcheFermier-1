@@ -158,6 +158,7 @@ public class Main {
             //Random pour déterminer le nombre de personnes qui vont vendre ce tour
             int randomNbPersonnesVendeuses = (int) (Math.random() * participantsAvecObjetsAVendre.size());
 
+            //Mise en vente des objets
             for (int i = 0 ; i<randomNbPersonnesVendeuses ; ++i) {
                 int randomIndiceVendeur = (int) (Math.random() * participantsAvecObjetsAVendre.size()-1);
                 Participant p = participantsAvecObjetsAVendre.get(randomIndiceVendeur);
@@ -167,7 +168,10 @@ public class Main {
                 //TODO : Définir un prix plus "honette"
                 System.out.println(p.getId() + " à mis en vente un lot de " + produitFermier + " au prix de " + randomPrixObjet);
                 p.creerOffreAchat(new Offre(participantsAvecObjetsAVendre.get(randomIndiceVendeur),produitFermier,randomPrixObjet));
+                //TODO : Gérer le fait on ne peux pas mettre le même produit dans 2 offres différentes (faire un tableau de produits en vente en cours dans participant et le tester ici)
             }
+
+            //TODO : Ajouter l'achat des objets
 
             //Attente que l'utilisateur appuye sur entrée
             while (true){
