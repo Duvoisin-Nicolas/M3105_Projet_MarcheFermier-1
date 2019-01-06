@@ -36,4 +36,8 @@ public class Carotte extends Legume{
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Carotte";
+    }
 }

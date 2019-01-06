@@ -36,4 +36,8 @@ public class Fromage extends ProduitLaitier {
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Fromage";
+    }
 }

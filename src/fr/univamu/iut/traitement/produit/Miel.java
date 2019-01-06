@@ -37,4 +37,8 @@ public class Miel extends ProduitAbeille {
             observateur.mettreAJour(this);
         }
     }
+    @Override
+    public String toString() {
+        return "Miel";
+    }
 }
