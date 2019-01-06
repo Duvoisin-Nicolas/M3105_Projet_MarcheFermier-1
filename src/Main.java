@@ -172,6 +172,7 @@ public class Main {
             }
 
             //TODO : Ajouter l'achat des objets
+            //TODO : Compléter ce qu'il manque en relisant le sujet
 
             //Attente que l'utilisateur appuye sur entrée
             while (true){
